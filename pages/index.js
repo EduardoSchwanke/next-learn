@@ -4,15 +4,14 @@ function Home() {
     return (
         <div>
             <h1>Home</h1>
-            <a href="/sobre">Acessar página Sobre</a>
+            <Link href="/sobre">
+                <a>Acessar página Sobre</a>
+            </Link>
         </div>
     )
 }
 
 export default Home
 
-/*
-<Link href="/sobre">
-                <a>Acessar página Sobre</a>
-            </Link>
-*/
+//Load: 17.34 s
+//sobre 87ms
