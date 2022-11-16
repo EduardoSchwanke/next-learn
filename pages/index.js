@@ -5,13 +5,10 @@ function Home() {
         <div>
             <h1>Home</h1>
             <Link href="/sobre">
-                <a>Acessar página Sobre</a>
+                Acessar página Sobre
             </Link>
         </div>
     )
 }
 
 export default Home
-
-//Load: 17.34 s
-//sobre 87ms
