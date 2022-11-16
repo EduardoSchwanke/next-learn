@@ -21,7 +21,7 @@ export function getStaticProps(){
         props: {
             staticDataString
         },
-        revalidade: 1
+        revalidate: 1
     }
 }
 
